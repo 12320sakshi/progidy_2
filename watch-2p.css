@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.stopwatch {
+  margin: 100px auto;
+}
+
+#display {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button#startStop {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button#startStop.running {
+  background-color: #FF0000;
+}
+
+button#lap {
+  background-color: #008CBA;
+  color: white;
+}
+
+ul#laps {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul#laps li {
+  margin: 5px 0;
+}
